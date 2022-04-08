@@ -42,7 +42,6 @@ def fprintln(f, *args):
 
 def log_error(function, cpp_line, pe):
     if debug:
-       foo = __name__
        print(f"  {function}: {cpp_line}  Error: {pe}")
     return False
 
